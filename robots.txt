@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://staylabbykaavyaratna.co.in/sitemap.xml
-
+Sitemap: https://trehanbuilderfloors.co.in/sitemap.xml

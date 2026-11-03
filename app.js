@@ -1,5 +1,5 @@
 /* ===============================================================
-   STAYLAB BY KAAVYARATNA — JAVASCRIPT UI ENGINE
+   TREHAN LUXURY FLOORS — JAVASCRIPT UI ENGINE
 =============================================================== */
 
 // ── 1. Hero Concept 3: Horizontal Scroll/Swipe & Auto-Slide Engine ──
@@ -187,11 +187,11 @@ window.switchPlanTab = function (tab) {
 
 // ── 3. Gallery Lightbox Engine ───────────────────────────────
 const galleryItems = [
-  { src: 'images/gallery/g1.webp', title: 'Serviced Residences & Co-Living View', category: 'Project Architecture' },
-  { src: 'images/gallery/g2.webp', title: 'Grand Arrival & Reception Lounge', category: 'Grand Arrival' },
-  { src: 'images/gallery/g3.webp', title: 'Furnished Studio Residences', category: 'Furnished Studios' },
-  { src: 'images/gallery/g4.webp', title: 'Co-Living & Community Spaces', category: 'Community Living' },
-  { src: 'images/gallery/g5.webp', title: 'Terrace Cafe & Sky Lounge', category: 'Lifestyle Amenities' },
+  { src: 'images/gallery/g1.webp', title: 'Luxury Low-Rise Floors Elevation', category: 'Project Architecture' },
+  { src: 'images/gallery/g2.webp', title: 'Grand Arrival & Landscaped Entrance', category: 'Grand Arrival' },
+  { src: 'images/gallery/g3.webp', title: 'Spacious 3 & 4 BHK Luxury Interiors', category: 'Floor Living' },
+  { src: 'images/gallery/g4.webp', title: 'Clubhouse & Lifestyle Amenities', category: 'Community Living' },
+  { src: 'images/gallery/g5.webp', title: 'Terrace Lounge & Green Spaces', category: 'Lifestyle Amenities' },
 ];
 
 let curGalleryIdx = 0;
