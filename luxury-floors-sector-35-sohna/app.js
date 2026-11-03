@@ -304,12 +304,12 @@ window.toggleOverviewText = function () {
   if (isHidden) {
     extra.classList.remove('hidden');
     const label = btn.querySelector('span');
-    if (label) label.innerText = 'Collapse Details';
+    if (label) label.innerText = 'Read Less';
     if (chevron) chevron.classList.add('rotate-180');
   } else {
     extra.classList.add('hidden');
     const label = btn.querySelector('span');
-    if (label) label.innerText = 'Read Full Narrative';
+    if (label) label.innerText = 'Read More';
     if (chevron) chevron.classList.remove('rotate-180');
   }
 };
