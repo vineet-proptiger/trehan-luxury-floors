@@ -1,4 +1,3 @@
 User-agent: *
-Allow: /
-
-Sitemap: https://trehanbuilderfloors.co.in/sitemap.xml
+Disallow: /
+Allow: /luxury-floors-sector-35-sohna/

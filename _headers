@@ -3,26 +3,29 @@
 # ═══════════════════════════════════════════════════
 
 # Static Images (7 Days Browser Cache + Stale-While-Revalidate)
-/images/*
+/luxury-floors-sector-35-sohna/images/*
   Cache-Control: public, max-age=604800, stale-while-revalidate=86400
 
 # Stylesheets (7 Days Browser Cache)
-/css/*
+/luxury-floors-sector-35-sohna/css/*
   Cache-Control: public, max-age=604800, stale-while-revalidate=86400
 
 # Fonts (1 Year Immutable Cache)
-/fonts/*
+/luxury-floors-sector-35-sohna/fonts/*
   Cache-Control: public, max-age=31536000, immutable
 
 # Favicon & App Icons (7 Days Cache)
-/favicon/*
+/luxury-floors-sector-35-sohna/favicon/*
   Cache-Control: public, max-age=604800, stale-while-revalidate=86400
 
 # Standalone Form CSS
-/form.css
+/luxury-floors-sector-35-sohna/form.css
   Cache-Control: public, max-age=86400, stale-while-revalidate=43200
 
 # HTML Pages - Always fresh so any code or content updates appear immediately
+/luxury-floors-sector-35-sohna/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
 /*.html
   Cache-Control: public, max-age=0, must-revalidate
 

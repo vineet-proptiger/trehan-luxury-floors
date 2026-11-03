@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://trehanbuilderfloors.co.in/sitemap.xml
